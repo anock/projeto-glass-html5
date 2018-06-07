@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>Tudo sobre google glass</title>
+    <link rel="stylesheet"type="text/css"href="_css/estilo.css"/>
+    <link rel="stylesheet"href="_css/form.css"/>
+</head>
+<script language="JavaScript" src="_javascript/funcoes.js">
+
+</script>
+
+<body>
+<div id="interface">
+    <header id="cabecalho">
+        <hgroup>
+            <h1>Google Glass</h1>
+            <h2>A revolução do Google está chegando</h2>
+        </hgroup>
+        <img id="icone"src="_imagens/contato.png">
+        <nav id="menu">
+            <h1>Menu Principal</h1>
+            <ul>
+                <li onmouseover="mudafoto('_imagens/home.png')" onmouseout="mudafoto('_imagens/contato.png')"><a href="index.html"> Home</a></li>
+                <li onmouseover="mudafoto('_imagens/especificacoes.png')"onmouseout="mudafoto('_imagens/contato.png')"><a href="specs.html"> Especificações</a></li>
+                <li onmouseover="mudafoto('_imagens/fotos.png')"onmouseout=mudafoto('_imagens/contato.png')><a href="fotos.html"> Fotos</a></li>
+                <li onmouseover="mudafoto('_imagens/multimidia.png')"onmouseout="mudafoto('_imagens/contato.png')"><a href="multimidia.html"> Multimídia</a></li>
+                <li onmouseover="mudafoto('_imagens/contato.png')"onmouseout="mudafoto('_imagens/contato.png')"><a href="fale-conosco.html"> Fale conosco</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section id="corpo-full">
+        <article id="noticiaprincipal">
+            <header id="cabecalho-artigo">
+                <hgroup>
+                    <h3>Glass > Fotos</h3>
+                    <h1>Galeria de imagens do Google Glass</h1>
+                    <h2>por Leonardo Gabral</h2>
+                    <h3 class="direita">Atualizado em 01/Maio/2013</h3>
+                </hgroup>
+            </header>
+
+
+
+
+
+<form>
+
+   <fieldset id="usuario">
+       <legend>Identificação do Usuário</legend>
+    <p><label for="cnome">Nome:</label><input type="text" name="tnome" id="cnome"size="20"maxlength="30"placeholder="nome completo"/></p>
+    <p>Senha:<input type="password" name="tsenha" id="csenha"size="8" maxlength="8" placeholder="digite sua senha"></p>
+   <p> E-mail:<input type="email"name="tmail" id="cmail"size="20"maxlength="40"></p>
+
+
+    <fieldset id="sexo"><legend>Sexo:</legend>
+        <input type="radio"name="tsexo" id="cmasc"checked/> <label for="cmasc">Masculino</label><br/>
+        <input type="radio"name="tsexo"id="cfem"/> <label for="cfem">Feminino</label></fieldset>
+    <p>Data de Nascimento:<input type="date" name="nasc" id="inasc"></p>
+   </fieldset>
+
+
+
+<fieldset id="endereco"><legend>Endereço do Usuário</legend>
+   <p> Logradouro:<input type="text"name="trua" id="crua" size="13" maxlength="80"placeholder="Rua,Av,Travessa"/></p>
+   <p> Número:<input type="number"name="tnum"id="cnum"min="0"maxlength="99999"></p>
+    Estado:
+    Cidade:
+</fieldset>
+
+<fieldset id="mensagem"><legend>Mensagem do Usuário</legend>
+    Grau de Urgência:
+    Mensagem:
+</fieldset>
+
+
+
+<fieldset id="pedido"><legend>Quero um Google Glass</legend>
+    Gostaria de adquirir um Google Glass quando disponível
+    Cor:
+    Quantidade:
+    Preço Total: R$
+</fieldset>
+
+
+[BOTÃO ENVIAR]</form>
+        </article>
+        </section>
+            <footer id="rodape">
+                <p>Copyright 2013 - by Leonardo Gabral<br/>
+                    Facebook | Twitter</p>
+            </footer>
+
+</div>
+</body>
+</html>
